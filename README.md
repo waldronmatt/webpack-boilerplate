@@ -32,7 +32,7 @@ Build and serve for prod on Netlify (serverless):
 npm run build
 ```
 
-Build and serve for prod:
+Build and serve for prod ([http://localhost:8080/](http://localhost:8080/) for testing):
 
 ```bash
 npm run prod
