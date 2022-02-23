@@ -13,15 +13,17 @@ const developmentConfig = {
         warnings: false,
       },
     },
-    hot: true,
-    open: true,
-    static: {
-      publicPath: paths.publicPath,
-    },
-    port: paths.PORT,
     // use a rewrite for our 404 page to simulate express logic
     historyApiFallback: {
       rewrites: [{ from: /./, to: '/404.html' }],
+    },
+    hot: true,
+    open: true,
+    port: paths.PORT,
+    static: {
+      directory: paths.src,
+      publicPath: paths.publicPath,
+      watch: true,
     },
   },
   plugins: [

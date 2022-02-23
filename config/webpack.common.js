@@ -9,11 +9,6 @@ const commonConfig = isProduction => {
 
   return merge([
     {
-      /*
-        DO NOT REMOVE: Solves for hmr issue with browserlist
-        https://github.com/webpack/webpack-dev-server/issues/2758
-      */
-      target: 'web',
       entry: {
         main: [`${paths.src}/ts/index.ts`],
       },
