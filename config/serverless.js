@@ -21,9 +21,6 @@ app.use(
 
 app.use(limiter);
 
-// use express.static() to serve files from several directories
-app.use(express.static(__dirname));
-
 app.get('/', (req, res) => {
   res.sendFile(paths.INDEX_PAGE);
 });
