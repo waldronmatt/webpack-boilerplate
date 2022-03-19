@@ -62,6 +62,7 @@ npm run lint:fix
 
 ### Plugins
 
+- compression-webpack-plugin
 - eslint-webpack-plugin
 - html-webpack-plugin
 - stylelint-webpack-plugin
@@ -80,8 +81,8 @@ npm run lint:fix
 
 ### Server Packages
 
-- compression
 - express
+- express-static-gzip
 - express-rate-limit
 - serverless-http
 
