@@ -1,6 +1,7 @@
+const path = require('path');
 const express = require('express');
 const serverless = require('serverless-http');
-const compression = require('compression');
+const expressStaticGzip = require('express-static-gzip');
 const rateLimit = require('express-rate-limit');
 const paths = require('./paths');
 
@@ -10,7 +11,14 @@ const limiter = rateLimit({
 });
 
 const app = express();
-app.use(compression());
+
+app.use(
+  '/',
+  expressStaticGzip(path.join(__dirname), {
+    enableBrotli: true,
+  })
+);
+
 app.use(limiter);
 
 // use express.static() to serve files from several directories
