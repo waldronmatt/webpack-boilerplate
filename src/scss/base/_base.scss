@@ -2,3 +2,8 @@ body {
   font-family: Tajawal, Arial, Helvetica, sans-serif;
   margin: 2rem;
 }
+
+img {
+  // https://web.dev/optimize-cls/#modern-best-practice
+  aspect-ratio: attr(width) / attr(height);
+}
