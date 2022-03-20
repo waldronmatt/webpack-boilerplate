@@ -26,6 +26,7 @@ const commonConfig = isProduction => {
     baseParts.loadTS(),
     baseParts.loadSCSS(),
     baseParts.loadFonts({ path: 'fonts/' }),
+    baseParts.loadImagesAsFiles({ path: 'images/' }),
     parts.loadPages(),
   ]);
 };

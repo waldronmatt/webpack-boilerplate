@@ -65,7 +65,14 @@ npm run lint:fix
 - compression-webpack-plugin
 - eslint-webpack-plugin
 - html-webpack-plugin
+- image-minimizer-webpack-plugin
 - stylelint-webpack-plugin
+
+### Additional Libraries
+
+- imagemin
+- imagemin-jpegtran
+- imagemin-webp
 
 ### Linters / Transformers
 
