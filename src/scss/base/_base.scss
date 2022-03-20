@@ -6,4 +6,5 @@ body {
 img {
   // https://web.dev/optimize-cls/#modern-best-practice
   aspect-ratio: attr(width) / attr(height);
+  margin-top: 1rem;
 }
