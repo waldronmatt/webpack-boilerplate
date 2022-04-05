@@ -27,7 +27,7 @@
     "express-rate-limit": "^6.2.1",
     "express-static-gzip": "^2.1.5",
     "sanitize.css": "^13.0.0",
-    "serverless-http": "^2.7.0",
+    "serverless-http": "^3.0.1",
     "the-new-css-reset": "^1.4.9"
   },
   "devDependencies": {
