@@ -1,13 +1,16 @@
 {
   "name": "webpack-template",
+  "version": "1.1.0",
   "description": "Webpack 5 template with sensible defaults.",
   "main": "src/js/index.js",
   "scripts": {
     "dev": "webpack serve --env development --config config/webpack.dev.js",
     "prod": "webpack --env production --config config/webpack.prod.js && webpack --env target=server --config config/webpack.server.config.js && node ./dist/server.js",
     "build": "webpack --env production --config config/webpack.prod.js && webpack --env target=serverless --config config/webpack.server.config.js",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:js": "eslint --fix .",
+    "lint:scss": "stylelint --fix **/*.scss",
+    "lint": "npm run lint:js && npm run lint:scss",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,19 @@
   "browserslist": [
     "extends @waldronmatt/browserslist-config"
   ],
+  "simple-git-hooks": {
+    "pre-commit": "npm lint-staged",
+    "commit-msg": "npm commitlint --edit $1",
+    "pre-push": "npm run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ],
+    "*.scss": [
+      "stylelint --fix"
+    ]
+  },
   "dependencies": {
     "express": "^4.17.2",
     "express-rate-limit": "^6.2.1",
@@ -31,6 +47,8 @@
     "the-new-css-reset": "^1.4.9"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@tsconfig/recommended": "^1.0.1",
     "@waldronmatt/browserslist-config": "^1.0.2",
     "@waldronmatt/eslint-config": "^1.0.7",
@@ -38,7 +56,9 @@
     "@waldronmatt/prettier-config": "^1.1.4",
     "@waldronmatt/stylelint-config": "^1.0.9",
     "@waldronmatt/webpack-config": "^2.6.0",
+    "commitizen": "^4.2.4",
     "compression-webpack-plugin": "^9.2.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.9.0",
     "eslint-webpack-plugin": "^3.1.1",
     "html-webpack-plugin": "^5.5.0",
@@ -46,8 +66,10 @@
     "imagemin": "^8.0.1",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-webp": "^7.0.0",
+    "lint-staged": "^12.3.7",
     "postcss": "^8.4.6",
     "prettier": "^2.5.1",
+    "simple-git-hooks": "^2.7.0",
     "stylelint": "^14.5.0",
     "stylelint-webpack-plugin": "^3.1.1",
     "webpack": "^5.68.0",
@@ -55,5 +77,10 @@
     "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.8.0",
     "webpack-node-externals": "^3.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
