@@ -44,7 +44,7 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator"
     ],
-    "branch": "main"
+    "branches": "main"
   },
   "dependencies": {
     "express": "^4.17.2",
