@@ -38,6 +38,15 @@
       "stylelint --fix"
     ]
   },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "main"
+  },
   "dependencies": {
     "express": "^4.17.2",
     "express-rate-limit": "^6.2.1",
@@ -49,6 +58,10 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@tsconfig/recommended": "^1.0.1",
     "@waldronmatt/browserslist-config": "^1.0.2",
     "@waldronmatt/eslint-config": "^1.0.7",
@@ -69,6 +82,7 @@
     "lint-staged": "^12.3.7",
     "postcss": "^8.4.6",
     "prettier": "^2.5.1",
+    "semantic-release": "^19.0.2",
     "simple-git-hooks": "^2.7.0",
     "stylelint": "^14.5.0",
     "stylelint-webpack-plugin": "^3.1.1",
