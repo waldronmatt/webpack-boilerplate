@@ -1,22 +1,17 @@
-name: release
+name: Release
+
 on:
   push:
     branches:
       - main
+
 jobs:
-  build:
+  release:
+    name: Semantic Release GitHub
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v1
 
-      - name: Config git user
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v2.5.0
+      - uses: codfish/semantic-release-action@v1
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
