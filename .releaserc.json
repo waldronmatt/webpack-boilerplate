@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@waldronmatt/semantic-release-config"
+  ]
+}
