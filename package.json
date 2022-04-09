@@ -32,6 +32,9 @@
     "*.js": [
       "eslint --fix"
     ],
+    "*.ts": [
+      "eslint --fix"
+    ],
     "*.scss": [
       "stylelint --fix"
     ]
@@ -54,7 +57,7 @@
     "@waldronmatt/prettier-config": "^1.2.5",
     "@waldronmatt/semantic-release-config": "^1.0.7",
     "@waldronmatt/stylelint-config": "^1.1.5",
-    "@waldronmatt/webpack-config": "^2.7.2",
+    "@waldronmatt/webpack-config": "^2.7.3",
     "commitizen": "^4.2.4",
     "compression-webpack-plugin": "^9.2.0",
     "cz-conventional-changelog": "^3.3.0",
