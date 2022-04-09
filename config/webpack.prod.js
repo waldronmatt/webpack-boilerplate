@@ -1,20 +1,15 @@
-const CompressionPlugin = require('compression-webpack-plugin');
+const { ESBuildMinifyPlugin } = require('esbuild-loader');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 const zlib = require('zlib');
 const { extendWebpackBaseConfig } = require('@waldronmatt/webpack-config');
 const commonConfig = require('./webpack.common');
 
 const productionConfig = {
   plugins: [
-    new CompressionPlugin({
-      filename: '[path][base].br',
-      algorithm: 'brotliCompress',
-      test: /\.(js|css|html)$/,
-      compressionOptions: {
-        params: {
-          [zlib.constants.BROTLI_PARAM_QUALITY]: 11,
-        },
-      },
+    new ESBuildMinifyPlugin({
+      target: 'es2015',
+      css: true,
     }),
     new ImageMinimizerPlugin({
       test: /\.(apng|avif|gif|jpe?g|png|svg|webp)$/i,
@@ -33,6 +28,16 @@ const productionConfig = {
           },
         },
       ],
+    }),
+    new CompressionPlugin({
+      filename: '[path][base].br',
+      algorithm: 'brotliCompress',
+      test: /\.(js|css|html)$/,
+      compressionOptions: {
+        params: {
+          [zlib.constants.BROTLI_PARAM_QUALITY]: 11,
+        },
+      },
     }),
   ],
   optimization: {

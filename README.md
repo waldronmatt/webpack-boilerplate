@@ -38,70 +38,17 @@ Build and serve for prod ([http://localhost:8080/](http://localhost:8080/) for t
 npm run prod
 ```
 
-Check for eslint errors in `config/` files:
+## Shareable Configs Used
 
-```bash
-npm run lint:check
-```
-
-Fix eslint errors in `config/` files:
-
-```bash
-npm run lint:fix
-```
-
-## Dependencies
-
-### Webpack
-
-- webpack
-- webpack-cli
-- webpack-dev-server
-- webpack-merge
-- webpack-node-externals
-
-### Plugins
-
-- compression-webpack-plugin
-- eslint-webpack-plugin
-- html-webpack-plugin
-- image-minimizer-webpack-plugin
-- stylelint-webpack-plugin
-
-### Additional Libraries
-
-- imagemin
-- imagemin-jpegtran
-- imagemin-webp
-
-### Linters / Transformers
-
-- eslint
-- postcss
-- prettier
-- stylelint
-
-### Style Resets
-
-- the-new-css-reset
-- sanitize.css
-
-### Server Packages
-
-- express
-- express-static-gzip
-- express-rate-limit
-- serverless-http
-
-### Shareable Configs
-
-- [@tsconfig/recommended](https://github.com/tsconfig/bases)
-- [@waldronmatt/browserslist-config](https://github.com/waldronmatt/browserslist-config)
-- [@waldronmatt/eslint-config](https://github.com/waldronmatt/eslint-config)
-- [@waldronmatt/postcss-config](https://github.com/waldronmatt/postcss-config)
-- [@waldronmatt/prettier-config](https://github.com/waldronmatt/prettier-config)
-- [@waldronmatt/stylelint-config](https://github.com/waldronmatt/stylelint-config)
-- [@waldronmatt/webpack-config](https://github.com/waldronmatt/webpack-config)
+- [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional)
+- [@tsconfig/recommended](https://github.com/tsconfig/bases/blob/main/bases/recommended.json)
+- [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config)
+- [@waldronmatt/eslint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config)
+- [@waldronmatt/postcss-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/postcss-config)
+- [@waldronmatt/prettier-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/prettier-config)
+- [@waldronmatt/semantic-release-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config)
+- [@waldronmatt/stylelint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/stylelint-config)
+- [@waldronmatt/webpack-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/webpack-config)
 
 ## License
 
