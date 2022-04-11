@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: 'github-actions'
