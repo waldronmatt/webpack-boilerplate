@@ -15,7 +15,7 @@ Webpack 5 Template with sensible defaults.
 Install dependencies:
 
 ```bash
-npm i
+yarn
 ```
 
 ## Getting Started
@@ -23,19 +23,33 @@ npm i
 Run dev environment:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-Build and serve for prod on Netlify (serverless):
+Build and serve on Netlify:
 
 ```bash
-npm run build
+yarn build
 ```
 
-Build and serve for prod ([http://localhost:8080/](http://localhost:8080/) for testing):
+Build and serve via Express:
 
 ```bash
-npm run prod
+yarn prod
+```
+
+## Commands
+
+Commit changes using conventional changelog:
+
+```bash
+yarn commit
+```
+
+Lint `.js` files across packages:
+
+```bash
+yarn lint
 ```
 
 ## Shareable Configs Used
