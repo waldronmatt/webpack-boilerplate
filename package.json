@@ -6,11 +6,12 @@
   "main": "src/js/index.js",
   "scripts": {
     "dev": "webpack serve --env development --config config/webpack.dev.js",
-    "prod": "webpack --env production --config config/webpack.prod.js && webpack --env target=server --config config/webpack.server.config.js && node ./dist/server.js",
+    "prod": "webpack --env production --config config/webpack.prod.js && webpack --env target=server --config config/webpack.server.config.js",
+    "serve": "node ./dist/server.js",
     "build": "webpack --env production --config config/webpack.prod.js && webpack --env target=serverless --config config/webpack.server.config.js",
     "lint:js": "eslint --fix .",
     "lint:scss": "stylelint --fix **/*.scss",
-    "lint": "npm run lint:js && npm run lint:scss",
+    "lint": "yarn lint:js && yarn lint:scss",
     "commit": "git-cz"
   },
   "repository": {

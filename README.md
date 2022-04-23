@@ -48,7 +48,7 @@ Commit changes using conventional changelog:
 yarn commit
 ```
 
-Lint `.js` files across packages:
+Lint `.js`, `.ts`, and `.scss` files across packages:
 
 ```bash
 yarn lint
