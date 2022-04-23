@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0025207c-743d-4b37-b24e-9b67b3489f48/deploy-status)](https://app.netlify.com/sites/waldronmatt-webpack-template/deploys)
 
-Webpack 5 Template with sensible defaults.
+[Webpack 5 Template](https://waldronmatt-webpack-template.netlify.app/) with sensible defaults.
 
 ## Features
 
@@ -26,13 +26,15 @@ Run dev environment:
 yarn dev
 ```
 
-Build and serve on Netlify:
+Build and serve for Netlify:
 
 ```bash
 yarn build
 ```
 
-Build and serve via Express:
+**Note:** Configure script in Netlify to auto-run via push to `main` branch.
+
+Build and serve for Express:
 
 ```bash
 yarn prod
@@ -51,6 +53,14 @@ Lint `.js` files across packages:
 ```bash
 yarn lint
 ```
+
+Serve for Express:
+
+```bash
+yarn serve
+```
+
+**Note**: Run `yarn prod` first.
 
 ## Shareable Configs Used
 
