@@ -34,7 +34,7 @@ yarn build
 
 **Note:** Configure script in Netlify to auto-run via push to `main` branch.
 
-Build and serve for Express:
+Build for Express:
 
 ```bash
 yarn prod
