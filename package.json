@@ -71,7 +71,7 @@
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-webp": "^7.0.0",
     "lint-staged": "^12.4.1",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.13",
     "prettier": "^2.6.2",
     "semantic-release": "^19.0.2",
     "simple-git-hooks": "^2.7.0",
