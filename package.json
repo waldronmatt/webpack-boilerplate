@@ -46,7 +46,7 @@
     "express-static-gzip": "^2.1.5",
     "sanitize.css": "^13.0.0",
     "serverless-http": "^3.0.1",
-    "the-new-css-reset": "^1.4.9"
+    "the-new-css-reset": "^1.6.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
