@@ -43,7 +43,7 @@
   "dependencies": {
     "express": "^4.18.1",
     "express-rate-limit": "^6.4.0",
-    "express-static-gzip": "^2.1.5",
+    "express-static-gzip": "^2.1.6",
     "sanitize.css": "^13.0.0",
     "serverless-http": "^3.0.1",
     "the-new-css-reset": "^1.6.0"
