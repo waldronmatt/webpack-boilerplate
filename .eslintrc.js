@@ -4,7 +4,10 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts'],
-      extends: ['@waldronmatt/eslint-config/ts'],
+      extends: [
+        '@waldronmatt/eslint-config/ts',
+        '@waldronmatt/eslint-config/jest',
+      ],
       parserOptions: {
         project: 'tsconfig.json',
         tsconfigRootDir: __dirname,
@@ -12,7 +15,10 @@ module.exports = {
     },
     {
       files: ['**/*.js'],
-      extends: ['@waldronmatt/eslint-config'],
+      extends: [
+        '@waldronmatt/eslint-config',
+        '@waldronmatt/eslint-config/jest',
+      ],
     },
   ],
 };

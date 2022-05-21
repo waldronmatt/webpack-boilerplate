@@ -12,7 +12,10 @@
     "lint:js": "eslint --fix .",
     "lint:scss": "stylelint --fix **/*.scss",
     "lint": "yarn lint:js && yarn lint:scss",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "jest",
+    "test:watch": "jest:watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -25,7 +28,7 @@
   },
   "homepage": "https://github.com/waldronmatt/webpack-template#readme",
   "simple-git-hooks": {
-    "pre-commit": "yarn lint-staged",
+    "pre-commit": "yarn lint-staged && yarn test",
     "commit-msg": "yarn commitlint --edit $1",
     "pre-push": "yarn lint"
   },
@@ -53,7 +56,8 @@
     "@commitlint/config-conventional": "^16.2.4",
     "@tsconfig/recommended": "^1.0.1",
     "@waldronmatt/browserslist-config": "^1.1.5",
-    "@waldronmatt/eslint-config": "^1.1.6",
+    "@waldronmatt/eslint-config": "^1.1.8",
+    "@waldronmatt/jest-config": "^1.1.1",
     "@waldronmatt/postcss-config": "^1.2.5",
     "@waldronmatt/prettier-config": "^1.2.5",
     "@waldronmatt/semantic-release-config": "^1.0.7",
@@ -70,6 +74,7 @@
     "imagemin": "^8.0.1",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-webp": "^7.0.0",
+    "jest": "^28.1.0",
     "lint-staged": "^12.4.1",
     "postcss": "^8.4.13",
     "prettier": "^2.6.2",

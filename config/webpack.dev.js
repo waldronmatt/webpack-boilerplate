@@ -28,8 +28,13 @@ const developmentConfig = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new StylelintPlugin(),
-    new EslintPlugin({ extensions: ['js', 'ts'] }),
+    new StylelintPlugin({
+      exclude: ['coverage/**'],
+    }),
+    new EslintPlugin({
+      extensions: ['js', 'ts'],
+      exclude: ['coverage/**'],
+    }),
   ],
 };
 

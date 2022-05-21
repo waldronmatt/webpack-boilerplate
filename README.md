@@ -6,9 +6,11 @@
 
 ## Features
 
-- Transpile and lint `.js`, `.ts`, `.css`, `.scss`
-- Supports server and serverless builds
+- Transpile and lint `.js`, `.ts`, `.test`, `.spec`, `.css`, `.scss`
+- Supports server and serverless builds with `Netlify` and `Express`
+- Automates versioning and GitHub publishing
 - Uses shareable configs to reduce boilerplate
+- ~100% Lighthouse Score
 
 ## Installation
 
@@ -54,6 +56,26 @@ Lint `.js`, `.ts`, and `.scss` files across packages:
 yarn lint
 ```
 
+Run tests:
+
+```bash
+yarn test
+```
+
+**Note**: `release.yml` will also run this before versioning and publishing.
+
+Run tests and rerun when something changes:
+
+```bash
+yarn test:watch
+```
+
+Run tests with coverage:
+
+```bash
+yarn test:coverage
+```
+
 Serve for Express:
 
 ```bash
@@ -68,6 +90,7 @@ yarn serve
 - [@tsconfig/recommended](https://github.com/tsconfig/bases/blob/main/bases/recommended.json)
 - [@waldronmatt/browserslist-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/browserslist-config)
 - [@waldronmatt/eslint-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/eslint-config)
+- [@waldronmatt/jest-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/jest-config)
 - [@waldronmatt/postcss-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/postcss-config)
 - [@waldronmatt/prettier-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/prettier-config)
 - [@waldronmatt/semantic-release-config](https://github.com/waldronmatt/shareable-configs/tree/main/packages/semantic-release-config)

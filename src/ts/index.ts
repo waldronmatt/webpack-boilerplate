@@ -17,3 +17,7 @@ logo.width = 200;
 
 const app = document.querySelector('#root');
 app?.append(logo);
+
+// jest testing
+export const sum = (...a: number[]) => a.reduce((acc, val) => acc + val, 0);
+console.log(sum(1, 2, 3));
