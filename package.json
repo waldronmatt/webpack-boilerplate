@@ -5,6 +5,7 @@
   "description": "Webpack 5 template with sensible defaults.",
   "main": "src/js/index.js",
   "scripts": {
+    "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
     "dev": "webpack serve --env development --config config/webpack.dev.js",
     "prod": "webpack --env production --config config/webpack.prod.js && webpack --env target=server --config config/webpack.server.config.js",
     "serve": "node ./dist/server.js",
@@ -60,7 +61,7 @@
     "@waldronmatt/jest-config": "^1.1.1",
     "@waldronmatt/postcss-config": "^1.2.5",
     "@waldronmatt/prettier-config": "^1.2.5",
-    "@waldronmatt/semantic-release-config": "^1.0.7",
+    "@waldronmatt/semantic-release-config": "^1.1.0",
     "@waldronmatt/stylelint-config": "^1.1.5",
     "@waldronmatt/webpack-config": "^2.7.3",
     "commitizen": "^4.2.4",
