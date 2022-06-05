@@ -6,7 +6,7 @@ import '@/scss/index.scss';
 import webpackLogo from '@/images/icon-square-small.jpg?as=webp';
 
 document
-  .getElementById('copyright')
+  .querySelector('#copyright')
   ?.appendChild(document.createTextNode(new Date().getFullYear().toString()));
 
 const logo = document.createElement('img');
@@ -19,5 +19,6 @@ const app = document.querySelector('#root');
 app?.append(logo);
 
 // jest testing
-export const sum = (...a: number[]) => a.reduce((acc, val) => acc + val, 0);
+export const sum = (...a: number[]) =>
+  a.reduce((accumulator, value) => accumulator + value, 0);
 console.log(sum(1, 2, 3));

@@ -1,4 +1,3 @@
-// https://stackoverflow.com/a/64488474
 module.exports = {
   ignorePatterns: ['dist/**'],
   overrides: [

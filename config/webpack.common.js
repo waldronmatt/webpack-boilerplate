@@ -23,14 +23,14 @@ const commonConfig = isProduction => {
         },
       },
     },
-    baseParts.loadTS(),
-    baseParts.enableTypeChecking(),
-    baseParts.setScriptOutputPath(),
-    baseParts.loadSCSS(),
-    baseParts.setStyleOutputPath(),
+    baseParts.loadTS({}),
+    baseParts.enableTypeChecking({}),
+    baseParts.setScriptOutputPath({}),
+    baseParts.loadSCSS({}),
+    baseParts.setStyleOutputPath({}),
     baseParts.loadFonts({ path: 'fonts/' }),
     baseParts.loadImagesAsFiles({ path: 'images/' }),
-    parts.loadPages(),
+    parts.loadPages({}),
   ]);
 };
 

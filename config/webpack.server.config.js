@@ -1,6 +1,7 @@
 // https://webpack.js.org/configuration/node/
 const nodeExternals = require('webpack-node-externals');
 
+// eslint-disable-next-line unicorn/prevent-abbreviations
 module.exports = env => {
   return {
     mode: 'production',
