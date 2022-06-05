@@ -2,5 +2,7 @@ const config = require('@waldronmatt/lint-staged-config');
 
 module.exports = {
   ...config,
-  '*.{ts,js}?x': ['yarn test --bail --passWithNoTests --findRelatedTests'],
+  '*.{js,jsx,ts,tsx}': [
+    'yarn test --bail --passWithNoTests --findRelatedTests',
+  ],
 };
