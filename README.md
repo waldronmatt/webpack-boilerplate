@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0025207c-743d-4b37-b24e-9b67b3489f48/deploy-status)](https://app.netlify.com/sites/waldronmatt-webpack-template/deploys)
 
-Comprehensive [Webpack 5 Template](https://waldronmatt-webpack-template.netlify.app/) with `TypeScript`, `Sass`, `Jest`, `Browserslist`, `PostCSS`, `Eslint`, `Stylelint`, `Prettier` `Husky`, `Lint-Staged`, `Commitizen`, `Commitlint`, `Semantic Release`, `GitHub Actions`, `Dependabot`.
+Comprehensive [Webpack 5 Template](https://waldronmatt-webpack-template.netlify.app/) with `TypeScript`, `Sass`, `Jest`, `Browserslist`, `PostCSS`, `Eslint`, `Stylelint`, `Prettier`, `Husky`, `Lint-Staged`, `Commitizen`, `Commitlint`, `Semantic Release`, `GitHub Actions`, `Dependabot`.
 
 ## Features
 
@@ -48,6 +48,12 @@ Build for Express:
 yarn prod
 ```
 
+Serve for Express:
+
+```bash
+yarn serve
+```
+
 ## Commands
 
 Commit changes using conventional changelog:
@@ -56,39 +62,21 @@ Commit changes using conventional changelog:
 yarn commit
 ```
 
-Lint `.js`, `.ts`, and `.scss` files across packages:
+Lint all `.js`, `.ts`, and `.scss` files:
 
 ```bash
 yarn lint
 ```
 
-Run tests:
+**Note**: `release.yml` will run this before versioning and publishing.
+
+Run all tests:
 
 ```bash
 yarn test
 ```
 
-**Note**: `release.yml` will also run this before versioning and publishing.
-
-Run tests and rerun when something changes:
-
-```bash
-yarn test:watch
-```
-
-Run tests with coverage:
-
-```bash
-yarn test:coverage
-```
-
-Serve for Express:
-
-```bash
-yarn serve
-```
-
-**Note**: Run `yarn prod` first.
+**Note**: `release.yml` will run this before versioning and publishing.
 
 ## License
 
