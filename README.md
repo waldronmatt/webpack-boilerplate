@@ -80,13 +80,13 @@ yarn test
 
 ## Click and Go!
 
-1. Click `Use this template` and create your own template copy.
+1. Click `Use this template` to create your own copy.
 
 2. Clone down the newly created repository.
 
-3. Update your `package.json`.
+3. Run `yarn` and `yarn prepare` to install dependencies and git hooks.
 
-`package.json`
+4. Update your `package.json`:
 
 ```json
 "name": "my-cool-repo",
@@ -99,23 +99,21 @@ yarn test
 },
 ```
 
-4. Delete `CHANGELOG.md`.
+5. Delete `CHANGELOG.md`.
 
-5. Customize your repo and commit changes using the `commit` script in `package.json`.
+6. Customize your repo and commit changes using the `commit` script in `package.json`:
 
 ```bash
 yarn commit
 ```
 
-6. Use a commit type similar to `feat` to trigger `semantic-release`.
-
-example commit:
+7. Use a commit type like `feat`:
 
 ```bash
 feat(global): init commit
 ```
 
-7. Push out your changes. This will trigger a release with a version of `1.0.0`.
+8. Push out your changes. This will trigger a release with a version of `1.0.0`.
 
 ## License
 
