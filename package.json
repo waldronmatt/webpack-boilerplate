@@ -1,8 +1,7 @@
 {
   "name": "webpack-template",
   "private": true,
-  "description": "Webpack 5 Template with TypeScript, Sass, Jest, Browserslist, PostCSS, Eslint, Stylelint, Prettier, Husky, Lint-Staged, Commitizen, Commitlint, Semantic Release.",
-  "main": "src/js/index.js",
+  "description": "Webpack 5 Template with TypeScript, Sass, Jest, Browserslist, PostCSS, Eslint, Stylelint, Prettier, Husky, Lint-Staged, Commitizen, Commitlint, Semantic-Release.",
   "scripts": {
     "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
     "dev": "webpack serve --env development --config config/webpack.dev.js",
@@ -22,12 +21,27 @@
     "type": "git",
     "url": "git+https://github.com/waldronmatt/webpack-template.git"
   },
+  "keywords": [
+    "Webpack",
+    "TypeScript",
+    "Sass",
+    "Jest",
+    "Browserslist",
+    "PostCSS",
+    "Eslint",
+    "Stylelint",
+    "Prettier",
+    "Husky",
+    "Lint-Satged",
+    "Commitizen",
+    "Commitlint",
+    "Semantic-Release",
+    "template",
+    "boilerplate",
+    "configurations"
+  ],
   "author": "Matthew Waldron",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/waldronmatt/webpack-template/issues"
-  },
-  "homepage": "https://github.com/waldronmatt/webpack-template#readme",
   "dependencies": {
     "express": "^4.18.1",
     "express-rate-limit": "^6.4.0",
