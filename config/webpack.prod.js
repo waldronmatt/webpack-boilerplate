@@ -31,7 +31,6 @@ const productionConfig = {
       ],
     }),
     new CompressionPlugin({
-      filename: '[path][base].br',
       algorithm: 'brotliCompress',
       test: /\.(js|css|html)$/,
       compressionOptions: {
