@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/waldronmatt/webpack-template/compare/v1.6.1...v1.6.2) (2022-06-08)
+
+
+### Bug Fixes
+
+* **global:** update repo description ([2606686](https://github.com/waldronmatt/webpack-template/commit/26066860d75ca61b072542736362ed4c6382ab59))
+
 ## [1.6.1](https://github.com/waldronmatt/webpack-template/compare/v1.6.0...v1.6.1) (2022-06-08)
 
 
