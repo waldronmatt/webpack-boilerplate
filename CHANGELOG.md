@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/waldronmatt/webpack-template/compare/v1.6.2...v1.6.3) (2022-06-08)
+
+
+### Bug Fixes
+
+* **package.json:** update props ([49954a1](https://github.com/waldronmatt/webpack-template/commit/49954a13a8203cc336f87b2fdd44ac710504eae4))
+
 ## [1.6.2](https://github.com/waldronmatt/webpack-template/compare/v1.6.1...v1.6.2) (2022-06-08)
 
 
