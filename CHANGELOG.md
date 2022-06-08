@@ -1,3 +1,11 @@
+## [1.6.1](https://github.com/waldronmatt/webpack-template/compare/v1.6.0...v1.6.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* **package.json:** remove dot in eslint lint command ([2e125c0](https://github.com/waldronmatt/webpack-template/commit/2e125c09148159a75d0acce59bcf7868dff81359))
+* **package.json:** update lint commands to support multiple types ([14d1a79](https://github.com/waldronmatt/webpack-template/commit/14d1a79d1592de16ddc97dff892f9aae033db2a3))
+
 # [1.6.0](https://github.com/waldronmatt/webpack-template/compare/v1.5.3...v1.6.0) (2022-06-05)
 
 
