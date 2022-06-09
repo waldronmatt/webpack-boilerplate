@@ -64,7 +64,7 @@ Commit changes using conventional changelog:
 yarn commit
 ```
 
-Lint all `.js`, `jsx`, `.ts`, `tsx`, `.css`, and `.scss` files:
+Lint all `.js`, `.jsx`, `.ts`, `.tsx`, `.css`, `.scss` files:
 
 ```bash
 yarn lint
