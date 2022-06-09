@@ -6,9 +6,11 @@ Comprehensive [Webpack 5 Template](https://waldronmatt-webpack-template.netlify.
 
 ## Features
 
-- Transpile and lint `.js`, `.ts`, `.test`, `.spec`, `.css`, `.scss`
-- Supports server and serverless builds with `Netlify` and `Express`
-- Automates versioning and GitHub publishing
+- Mixed `js`/`ts` template with `Jest` and `Eslint`, `Stylelint`, and `Prettier` linting
+- Conventional Commits prompt and commit linting using `Commitizen` and `Commitlint`
+- `Husky` hooks to lint and test staged files using `Lint-Staged`
+- Server and serverless builds with `Netlify` and `Express`
+- Automated releases using `Semantic-Release`
 - Uses my [shareable configs](https://github.com/waldronmatt/shareable-configs) to reduce boilerplate
 - ~100% Lighthouse Score
 
@@ -62,7 +64,7 @@ Commit changes using conventional changelog:
 yarn commit
 ```
 
-Lint all `.js`, `.ts`, and `.scss` files:
+Lint all `.js`, `jsx`, `.ts`, `tsx`, `.css`, and `.scss` files:
 
 ```bash
 yarn lint
