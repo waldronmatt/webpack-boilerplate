@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/waldronmatt/webpack-template/compare/v1.6.3...v1.6.4) (2022-06-12)
+
+
+### Bug Fixes
+
+* **global:** update dotfiles ([79dbce1](https://github.com/waldronmatt/webpack-template/commit/79dbce12378bc5c8df4ea75cba24ae7af7b5c658))
+
 ## [1.6.3](https://github.com/waldronmatt/webpack-template/compare/v1.6.2...v1.6.3) (2022-06-08)
 
 
