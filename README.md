@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0025207c-743d-4b37-b24e-9b67b3489f48/deploy-status)](https://app.netlify.com/sites/waldronmatt-webpack-template/deploys)
 
-Comprehensive [Webpack 5 Template](https://waldronmatt-webpack-template.netlify.app/) with `TypeScript`, `Sass`, `Jest`, `Browserslist`, `PostCSS`, `Eslint`, `Stylelint`, `Prettier`, `Husky`, `Lint-Staged`, `Commitizen`, `Commitlint`, `Semantic-Release`.
+Comprehensive [Webpack 5 Template](https://waldronmatt-webpack-template.netlify.app/) with `TypeScript`, `Sass`, `Jest`, `Browserslist`, `PostCSS`, `Eslint`, `Stylelint`, `HTMLHint`, `Markdownlint`, `Secretlint`, `Prettier`, `Husky`, `Lint-Staged`, `Commitizen`, `Commitlint`, `Semantic-Release`.
 
 ## Features
 
@@ -64,7 +64,7 @@ Commit changes using conventional changelog:
 yarn commit
 ```
 
-Lint all `.js`, `.jsx`, `.ts`, `.tsx`, `.css`, `.scss` files:
+Lint all `.js`, `.jsx`, `.ts`, `.tsx`, `.css`, `.scss`, `.html`, `.md` files:
 
 ```bash
 yarn lint
