@@ -39,6 +39,9 @@
     "Commitizen",
     "Commitlint",
     "Semantic-Release",
+    "Markdownlint",
+    "HTMLHint",
+    "Secretlint",
     "template",
     "boilerplate",
     "configurations"
