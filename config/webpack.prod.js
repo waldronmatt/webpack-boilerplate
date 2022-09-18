@@ -2,7 +2,7 @@
 const { ESBuildMinifyPlugin } = require('esbuild-loader');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
-const zlib = require('zlib');
+const zlib = require('node:zlib');
 const { extendWebpackBaseConfig } = require('@waldronmatt/webpack-config');
 const commonConfig = require('./webpack.common');
 

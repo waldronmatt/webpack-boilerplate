@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('node:path');
 const express = require('express');
 const expressStaticGzip = require('express-static-gzip');
 const rateLimit = require('express-rate-limit');

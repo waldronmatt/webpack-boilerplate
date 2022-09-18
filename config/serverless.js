@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('node:path');
 const express = require('express');
 const serverless = require('serverless-http');
 const expressStaticGzip = require('express-static-gzip');
