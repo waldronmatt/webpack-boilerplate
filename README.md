@@ -82,40 +82,14 @@ yarn test
 
 ## Click and Go!
 
-1. Click `Use this template` to create your own copy.
-
-2. Clone down the newly created repository.
-
-3. Run `yarn` and `yarn prepare` to install dependencies and git hooks.
-
-4. Update your `package.json`:
-
-```json
-"name": "my-cool-repo",
-
-...
-
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/your_username/my-cool-repo.git"
-},
-```
-
-5. Delete `CHANGELOG.md`.
-
-6. Customize your repo and commit changes using the `commit` script in `package.json`:
-
-```bash
-yarn commit
-```
-
-7. Use a commit type like `feat`:
-
-```bash
-feat(global): init commit
-```
-
-8. Push out your changes. This will trigger a release with a version of `1.0.0`.
+1. Click `Use this template` to create your own copy
+2. Clone down the newly created repository
+3. Run `yarn` and `yarn prepare` to install dependencies and git hooks
+4. Update your `package.json`
+5. Delete `CHANGELOG.md`
+6. Customize your repo and commit changes using the `commit` script in `package.json`
+7. Use a commit type like `feat`
+8. Push out your changes. This will trigger a release with a version of `1.0.0`
 
 ## License
 

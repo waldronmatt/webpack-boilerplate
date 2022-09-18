@@ -16,7 +16,8 @@
     "test:watch": "jest:watch",
     "test:coverage": "jest --coverage",
     "prepare": "husky install",
-    "lint:html": "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html"
+    "lint:html": "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html",
+    "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -60,6 +61,7 @@
     "@waldronmatt/htmlhint-config": "^1.0.2",
     "@waldronmatt/jest-config": "^1.2.3",
     "@waldronmatt/lint-staged-config": "^1.1.1",
+    "@waldronmatt/markdownlint-config": "^1.0.2",
     "@waldronmatt/postcss-config": "^1.4.0",
     "@waldronmatt/prettier-config": "^1.2.6",
     "@waldronmatt/semantic-release-config": "^1.1.1",
@@ -80,6 +82,7 @@
     "imagemin-webp": "^7.0.0",
     "jest": "^28.1.0",
     "lint-staged": "^13.0.0",
+    "markdownlint": "^0.26.2",
     "postcss": "^8.4.14",
     "prettier": "^2.6.2",
     "semantic-release": "^19.0.2",
