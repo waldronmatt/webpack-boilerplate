@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/waldronmatt/webpack-template/compare/v1.6.4...v1.7.0) (2022-09-18)
+
+
+### Bug Fixes
+
+* **global:** add htmlhint ([46175e3](https://github.com/waldronmatt/webpack-template/commit/46175e3e0b72bb258ae89b86eeabc00807487a72))
+
+
+### Features
+
+* **global:** add markdownlint ([1caff14](https://github.com/waldronmatt/webpack-template/commit/1caff14353f808e8aa1bb435d59ef7d1c725f44a))
+* **global:** add secretlint ([e61480b](https://github.com/waldronmatt/webpack-template/commit/e61480b2af60e6e0657188d281fd6a0981f9ed32))
+* **lint-pr-title.yml:** add semantic-pull-request ([cd1aac4](https://github.com/waldronmatt/webpack-template/commit/cd1aac4d44ffaad6affda5290518504228948810))
+
 ## [1.6.4](https://github.com/waldronmatt/webpack-template/compare/v1.6.3...v1.6.4) (2022-06-12)
 
 
