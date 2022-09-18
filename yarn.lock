@@ -2076,10 +2076,10 @@
     eslint-plugin-sonarjs "^0.15.0"
     eslint-plugin-unicorn "^43.0.0"
 
-"@waldronmatt/htmlhint-config@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@waldronmatt/htmlhint-config/-/htmlhint-config-1.0.3.tgz#1b8cc0aa6b9d6808d0b1bf17f94c15a97e04782f"
-  integrity sha512-ZyJ6staLtbWpWjZedX8lY7AgZh/kOrin9nXVeiB3fUCV87UtFPwsjHUgiUdpi+jvMtDxWu4nAZlf5G7VjSC7Xw==
+"@waldronmatt/htmlhint-config@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@waldronmatt/htmlhint-config/-/htmlhint-config-1.0.4.tgz#b1327a8b155725d140e4c2fdb158f87df02a0045"
+  integrity sha512-mTOGnfnaN8zk0PfQPsUmhZiZM27QsBBvI6ny6cjchoij6Rzfz/+ouJSHbpqFKLK9nKYB7ghG/f1TDxga7uzt6Q==
 
 "@waldronmatt/jest-config@^1.2.6":
   version "1.2.6"
