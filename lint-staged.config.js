@@ -5,4 +5,5 @@ module.exports = {
   '*.{js,jsx,ts,tsx}': [
     'yarn test --bail --passWithNoTests --findRelatedTests',
   ],
+  '*': ['secretlint'],
 };
