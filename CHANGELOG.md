@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/waldronmatt/webpack-template/compare/v1.7.0...v1.8.0) (2022-09-19)
+
+
+### Features
+
+* **global:** add yml linting and yml lint-staged support ([ff4ee7f](https://github.com/waldronmatt/webpack-template/commit/ff4ee7f292ff895be6c16a3b8033faf74509493f))
+
 # [1.7.0](https://github.com/waldronmatt/webpack-template/compare/v1.6.4...v1.7.0) (2022-09-18)
 
 
