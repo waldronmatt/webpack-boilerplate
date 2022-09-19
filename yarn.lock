@@ -2091,10 +2091,10 @@
     jest-transform-stub "^2.0.0"
     ts-jest "^28.0.3"
 
-"@waldronmatt/lint-staged-config@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@waldronmatt/lint-staged-config/-/lint-staged-config-1.1.3.tgz#a5ecb389535f48495c8d086b5f4aece66c94dac2"
-  integrity sha512-U7B/IvErRd+QtRwNX6qtK+n1ojUWclTkkSJzGriHPTUK2FV06Y2gFEhObzFE1TuaoO9iC0VIet4E0SHn9EgP8Q==
+"@waldronmatt/lint-staged-config@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@waldronmatt/lint-staged-config/-/lint-staged-config-1.2.0.tgz#91f84879851b5823371dfeecd2a8918828ea6604"
+  integrity sha512-5HVEtK48dmOcUr1z1J4qor73hla9cx6iucnWjE8hO85y6FPJlL3jarpvpbU8UmW7KXN24/OGnugQtFC3NBLseA==
 
 "@waldronmatt/markdownlint-config@^1.0.2":
   version "1.0.2"
