@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/waldronmatt/webpack-template/compare/v1.8.0...v1.8.1) (2022-09-21)
+
+
+### Bug Fixes
+
+* **package.json:** update linting ordering and keywords ([f3f2ba1](https://github.com/waldronmatt/webpack-template/commit/f3f2ba1168bffef068f4865b8011eae21ea046b6))
+
 # [1.8.0](https://github.com/waldronmatt/webpack-template/compare/v1.7.0...v1.8.0) (2022-09-19)
 
 
