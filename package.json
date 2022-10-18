@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "webpack-boilerplate",
   "private": true,
-  "description": "Webpack 5 Template with TypeScript, Sass, Jest, Browserslist, PostCSS, Eslint, Stylelint, Prettier, Husky, Lint-Staged, Commitizen, Commitlint, Semantic-Release.",
+  "description": "Webpack 5 Boilerplate with TypeScript, Sass, Jest, Browserslist, PostCSS, Eslint, Stylelint, Prettier, Husky, Lint-Staged, Commitizen, Commitlint, Semantic-Release.",
   "scripts": {
     "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
     "dev": "webpack serve --env development --config config/webpack.dev.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/webpack-template.git"
+    "url": "git+https://github.com/waldronmatt/webpack-boilerplate.git"
   },
   "keywords": [
     "Webpack",

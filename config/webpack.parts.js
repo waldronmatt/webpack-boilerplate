@@ -2,9 +2,9 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const paths = require('./paths');
 
 const siteData = {
-  title: 'Webpack Template',
-  description: 'Webpack 5 Template with sensible defaults',
-  keywords: 'webpack, template, config',
+  title: 'Webpack Boilerplate',
+  description: 'Webpack 5 Boilerplate with sensible defaults',
+  keywords: 'webpack, boilerplate, template, config',
 };
 
 // optionally pass in `isProduction` to apply environment-specific logic
