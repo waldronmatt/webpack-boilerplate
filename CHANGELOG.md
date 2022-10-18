@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.1...v1.8.2) (2022-10-18)
+
+
+### Bug Fixes
+
+* **global:** rename template to boilerplate ([b4d92b5](https://github.com/waldronmatt/webpack-boilerplate/commit/b4d92b56237e8d0c0bc97b64e48742f014398e79))
+
 ## [1.8.1](https://github.com/waldronmatt/webpack-template/compare/v1.8.0...v1.8.1) (2022-09-21)
 
 
