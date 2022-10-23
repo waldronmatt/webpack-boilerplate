@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.2...v1.8.3) (2022-10-23)
+
+
+### Bug Fixes
+
+* **lint-staged.config.js:** add coverage cli to jest config ([0a83f0e](https://github.com/waldronmatt/webpack-boilerplate/commit/0a83f0ea43dabf8692d9a8adb00bdf63240fb958))
+
 ## [1.8.2](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.1...v1.8.2) (2022-10-18)
 
 
