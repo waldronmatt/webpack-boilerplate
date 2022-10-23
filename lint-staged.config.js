@@ -9,6 +9,6 @@ module.exports = {
   ...ymlConfig,
   ...config,
   '*.{js,jsx,ts,tsx}': [
-    'yarn test --bail --passWithNoTests --findRelatedTests',
+    'yarn test --bail --passWithNoTests --findRelatedTests --coverage',
   ],
 };
