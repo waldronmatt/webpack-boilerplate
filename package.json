@@ -64,7 +64,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@waldronmatt/browserslist-config": "^1.2.1",
-    "@waldronmatt/commitizen-config": "^1.1.2",
     "@waldronmatt/commitlint-config": "^1.1.4",
     "@waldronmatt/eslint-config": "^1.5.6",
     "@waldronmatt/htmlhint-config": "^1.0.4",
@@ -80,6 +79,7 @@
     "@waldronmatt/webpack-config": "^2.9.3",
     "commitizen": "^4.2.5",
     "compression-webpack-plugin": "^10.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "esbuild-loader": "^2.18.0",
     "eslint": "^8.23.1",
     "eslint-webpack-plugin": "^3.1.1",

@@ -2042,13 +2042,6 @@
   dependencies:
     browserslist "^4.20.3"
 
-"@waldronmatt/commitizen-config@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@waldronmatt/commitizen-config/-/commitizen-config-1.1.2.tgz#aba233d5e71feac38bdf70838c39d03b7aac958b"
-  integrity sha512-fRXsL1RVrvZih6bOicAVfXRBTtmEWfoAne+aQifhqvKOfb8eIQjLu6qS2DE1ReLgwCQ8twpdN/IQ9JZebsCUtA==
-  dependencies:
-    cz-conventional-changelog "^3.3.0"
-
 "@waldronmatt/commitlint-config@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@waldronmatt/commitlint-config/-/commitlint-config-1.1.4.tgz#2eced50ba3a94defcc426ca6fb21e9a85d55e648"
