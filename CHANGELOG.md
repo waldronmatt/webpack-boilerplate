@@ -1,3 +1,12 @@
+## [1.8.4](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.3...v1.8.4) (2022-11-06)
+
+
+### Bug Fixes
+
+* **.releaserc.json:** upgrade semantic-release-config, update file ref in config ([7b1858f](https://github.com/waldronmatt/webpack-boilerplate/commit/7b1858f00422dc648803402e03e04b1a62298757))
+* **package.json:** remove commitizen-config ([2b3f281](https://github.com/waldronmatt/webpack-boilerplate/commit/2b3f2815af6e81b2000928dce66910d830b88de8))
+* **package.json:** upgrade postcss-config ([eda4121](https://github.com/waldronmatt/webpack-boilerplate/commit/eda4121f5e58c61da6226e2466524e22851886a1))
+
 ## [1.8.3](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.2...v1.8.3) (2022-10-23)
 
 
