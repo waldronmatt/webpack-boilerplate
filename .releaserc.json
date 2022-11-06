@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "@waldronmatt/semantic-release-config"
-  ]
+  "extends": ["@waldronmatt/semantic-release-config/github"]
 }
