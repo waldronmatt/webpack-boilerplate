@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.4...v1.8.5) (2022-11-26)
+
+
+### Bug Fixes
+
+* **global:** upgrade jest, lint-staged, tsconfig configs ([05a1449](https://github.com/waldronmatt/webpack-boilerplate/commit/05a1449d7a6241a3fdedf8b92c66d2557c92e70c))
+
 ## [1.8.4](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.3...v1.8.4) (2022-11-06)
 
 
