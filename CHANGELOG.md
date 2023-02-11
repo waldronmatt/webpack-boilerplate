@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.9.1...v1.9.2) (2023-02-11)
+
+
+### Bug Fixes
+
+* **manifest:** update pwa metadata ([ce5e222](https://github.com/waldronmatt/webpack-boilerplate/commit/ce5e2224a7ee185477645ffe216e0eb1d409c7f9))
+
 ## [1.9.1](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.9.0...v1.9.1) (2023-02-11)
 
 
