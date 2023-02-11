@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.9.0...v1.9.1) (2023-02-11)
+
+
+### Bug Fixes
+
+* **webpack.prod.js:** add copy-webpack-plugin to move public assets to dist folder ([6e17ea3](https://github.com/waldronmatt/webpack-boilerplate/commit/6e17ea3f274dae220f98263bc943a483d695c65e))
+
 # [1.9.0](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.5...v1.9.0) (2023-02-11)
 
 
