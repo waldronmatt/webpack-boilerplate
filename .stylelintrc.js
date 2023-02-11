@@ -1,5 +1,5 @@
 module.exports = {
-  ignoreFiles: ['dist/**'],
+  ignoreFiles: ['dist/**', 'coverage/**'],
   extends: '@waldronmatt/stylelint-config/scss',
   overrides: [
     {

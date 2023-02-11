@@ -12,7 +12,7 @@
     "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md",
     "lint:js": "eslint --fix **/*.{js,jsx,ts,tsx}",
     "lint:css": "stylelint --fix **/*.{css,scss}",
-    "lint:html": "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json **/*.html",
+    "lint:html": "htmlhint --config ./node_modules/@waldronmatt/htmlhint-config/index.json src/*.html",
     "lint": " yarn lint:secrets && yarn lint:md && yarn lint:js && yarn lint:css && yarn lint:html",
     "commit": "git-cz",
     "test": "jest",
