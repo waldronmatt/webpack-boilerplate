@@ -1,6 +1,6 @@
 {
-  "name": "waldronmatthew.com",
-  "short_name": "waldronmatthew.com",
+  "name": "Webpack 5 Boilerplate",
+  "short_name": "Webpack App",
   "display": "standalone",
   "start_url": "./?utm_source=pwa_install",
   "scope": ".",
