@@ -2,17 +2,18 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0025207c-743d-4b37-b24e-9b67b3489f48/deploy-status)](https://app.netlify.com/sites/waldronmatt-webpack-boilerplate/deploys)
 
-Comprehensive [Webpack 5 Boilerplate](https://waldronmatt-webpack-boilerplate.netlify.app/) with `TypeScript`, `Sass`, `Jest`, `Browserslist`, `PostCSS`, `Eslint`, `Stylelint`, `HTMLHint`, `Markdownlint`, `Secretlint`, `YAMLint`, `Actionlint`, `Prettier`, `Husky`, `Lint-Staged`, `Commitizen`, `Commitlint`, `Semantic-Release`.
+Comprehensive [Webpack 5 Boilerplate](https://waldronmatt-webpack-boilerplate.netlify.app/) with PWA support.
 
 ## Features
 
 - Mixed `js`/`ts` boilerplate with `Jest` and `Eslint`, `Stylelint`, and `Prettier` linting
+- Includes the starter [simplepwa template](https://github.com/nikkifurls/simplepwa)
+- Server and serverless builds with `Netlify` and `Express`
 - Conventional Commits prompt and commit linting using `Commitizen` and `Commitlint`
 - `Husky` hooks to lint and test staged files using `Lint-Staged`
-- Server and serverless builds with `Netlify` and `Express`
 - Automated releases using `Semantic-Release`
 - Uses my [shareable configs](https://github.com/waldronmatt/shareable-configs) to reduce boilerplate
-- ~100% Lighthouse Score
+- ~100% + PWA Optimized Lighthouse Score
 
 ## Installation
 

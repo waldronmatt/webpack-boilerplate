@@ -3,7 +3,7 @@ const paths = require('./paths');
 
 const siteData = {
   title: 'Webpack Boilerplate',
-  description: 'Webpack 5 Boilerplate with sensible defaults',
+  description: 'Comprehensive Webpack 5 Boilerplate',
   keywords: 'webpack, boilerplate, template, config',
 };
 
@@ -15,7 +15,6 @@ const parts = (/* isProduction */) => {
         filename: 'index.html',
         title: `Home | ${siteData.title}`,
         template: `${paths.src}/index.html`,
-        favicon: `${paths.public}/favicon.png`,
         meta: {
           description: siteData.description,
           keywords: siteData.keywords,
@@ -27,7 +26,6 @@ const parts = (/* isProduction */) => {
         filename: '404.html',
         title: `404 | ${siteData.title}`,
         template: `${paths.src}/404.html`,
-        favicon: `${paths.public}/favicon.png`,
         meta: {
           description: siteData.description,
           keywords: siteData.keywords,
