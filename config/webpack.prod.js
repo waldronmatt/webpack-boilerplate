@@ -3,8 +3,10 @@ const { ESBuildMinifyPlugin } = require('esbuild-loader');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const zlib = require('node:zlib');
+const CopyPlugin = require('copy-webpack-plugin');
 const { extendWebpackBaseConfig } = require('@waldronmatt/webpack-config');
 const commonConfig = require('./webpack.common');
+const paths = require('./paths');
 
 const productionConfig = {
   plugins: [
@@ -38,6 +40,9 @@ const productionConfig = {
           [zlib.constants.BROTLI_PARAM_QUALITY]: 11,
         },
       },
+    }),
+    new CopyPlugin({
+      patterns: [{ from: paths.public, to: paths.dist }],
     }),
   ],
   optimization: {

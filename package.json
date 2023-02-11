@@ -79,6 +79,7 @@
     "@waldronmatt/webpack-config": "^2.9.3",
     "commitizen": "^4.2.5",
     "compression-webpack-plugin": "^10.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "esbuild-loader": "^2.18.0",
     "eslint": "^8.23.1",
