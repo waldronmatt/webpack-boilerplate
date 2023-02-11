@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.5...v1.9.0) (2023-02-11)
+
+
+### Bug Fixes
+
+* **global:** fix linting errors ([147d538](https://github.com/waldronmatt/webpack-boilerplate/commit/147d5386067e08b013858f38bef16214ec59a213))
+
+
+### Features
+
+* **global:** add pwa support ([94ba451](https://github.com/waldronmatt/webpack-boilerplate/commit/94ba451ad906093c56beea7e8126a303d5a27de2))
+
 ## [1.8.5](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.8.4...v1.8.5) (2022-11-26)
 
 
