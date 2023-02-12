@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.9.2...v1.10.0) (2023-02-12)
+
+
+### Features
+
+* **global:** refactor server code, add express libraries ([fd98882](https://github.com/waldronmatt/webpack-boilerplate/commit/fd9888267267d6a38e323e6ba71ab1cf56954a97))
+
 ## [1.9.2](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.9.1...v1.9.2) (2023-02-11)
 
 
