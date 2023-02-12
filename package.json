@@ -54,9 +54,13 @@
   "author": "Matthew Waldron",
   "license": "MIT",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-rate-limit": "^6.4.0",
     "express-static-gzip": "^2.1.6",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0",
     "sanitize.css": "^13.0.0",
     "serverless-http": "^3.0.1",
     "the-new-css-reset": "^1.6.0"

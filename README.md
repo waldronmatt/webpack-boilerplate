@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0025207c-743d-4b37-b24e-9b67b3489f48/deploy-status)](https://app.netlify.com/sites/waldronmatt-webpack-boilerplate/deploys)
 
-Comprehensive [Webpack 5 Boilerplate](https://waldronmatt-webpack-boilerplate.netlify.app/) with PWA support.
+Comprehensive [Webpack 5 Boilerplate](https://waldronmatt-webpack-boilerplate.netlify.app/) with Express, Netlify, and PWA support.
 
 ## Features
 

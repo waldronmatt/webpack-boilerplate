@@ -7,5 +7,4 @@ module.exports = {
   publicPath: '/',
   INDEX_PAGE: path.join(__dirname, 'index.html'),
   ERROR_PAGE: path.join(__dirname, '404.html'),
-  PORT: process.env.PORT || 8080,
 };
