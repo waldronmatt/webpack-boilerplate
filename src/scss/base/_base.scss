@@ -1,10 +1,63 @@
 body {
   font-family: Tajawal, Arial, Helvetica, sans-serif;
-  margin: 2rem;
+  margin: 1rem;
 }
 
-img {
-  // https://web.dev/optimize-cls/#modern-best-practice
-  aspect-ratio: attr(width) / attr(height);
-  margin-top: 1rem;
+header,
+footer {
+  align-items: center;
+  /* stylelint-disable plugin/no-unsupported-browser-features */
+  column-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+header {
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 1rem;
+
+  h1 {
+    flex-grow: 1;
+    margin: 0;
+  }
+}
+
+nav {
+  ul {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+}
+
+a,
+button {
+  padding: 0.5rem;
+
+  &:focus {
+    border: 2px solid #00f;
+  }
+}
+
+main {
+  h2 {
+    font-size: larger;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
+  :last-child {
+    margin-bottom: 1rem;
+  }
+}
+
+footer {
+  border-top: 2px solid #d3d3d3;
+  padding-top: 1rem;
+
+  small {
+    flex-grow: 1;
+  }
 }
