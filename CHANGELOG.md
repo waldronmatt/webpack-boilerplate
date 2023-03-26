@@ -1,3 +1,13 @@
+## [1.10.1](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.10.0...v1.10.1) (2023-03-26)
+
+
+### Bug Fixes
+
+* **config/main.js:** update csp for pwa inline script ([818bf3b](https://github.com/waldronmatt/webpack-boilerplate/commit/818bf3bdec4c799e889dfb4d302daa67f4c2c378))
+* **global:** revamp demo site to include document section examples ([f6817b0](https://github.com/waldronmatt/webpack-boilerplate/commit/f6817b0059e1b4763980c6c62a14e1fae75d29fb))
+* **paths.js:** add back port in paths ([34e962a](https://github.com/waldronmatt/webpack-boilerplate/commit/34e962ad941cf8951ffc771fc3863c52d63dff6c))
+* **webpack.prod.js:** preload fonts and css ([c4d8706](https://github.com/waldronmatt/webpack-boilerplate/commit/c4d870654672f35a6a7e17777fac9a0e65e1fb82))
+
 # [1.10.0](https://github.com/waldronmatt/webpack-boilerplate/compare/v1.9.2...v1.10.0) (2023-02-12)
 
 
