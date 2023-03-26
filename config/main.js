@@ -15,7 +15,16 @@ export const expressApp = () => {
 
   app.disable('x-powered-by');
   app.use(cors());
-  app.use(helmet());
+  app.use(
+    helmet.contentSecurityPolicy({
+      directives: {
+        scriptSrc: [
+          "'self'",
+          "'sha256-2oSNrxWiw0odJzLeFq4qdkFPqcR5tCxpvBG3kMQqasA='",
+        ],
+      },
+    })
+  );
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
   app.use(cookieParser());
