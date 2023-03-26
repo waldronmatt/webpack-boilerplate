@@ -67,6 +67,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
+    "@principalstudio/html-webpack-inject-preload": "^1.2.7",
     "@waldronmatt/browserslist-config": "^1.2.1",
     "@waldronmatt/commitlint-config": "^1.1.4",
     "@waldronmatt/eslint-config": "^1.5.6",
